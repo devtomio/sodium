@@ -199,7 +199,7 @@ jobs:
 
       - name: Build
         id: build
-        uses: vmactions/freebsd-vm@45665d548dfeadbbebb5bb7971150211525fee46 # tag=v0.1.6
+        uses: vmactions/freebsd-vm@ce3d781df0af02da96f9830b3558129d1057610b # tag=v0.2.0
         env:
           DEBUG: napi:*
           RUSTUP_HOME: /usr/local/rustup
